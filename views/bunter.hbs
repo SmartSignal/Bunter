@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BUNTER!</title>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="MobileOptimized" content="320">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+
+</head>
+<body>
+
+<div class="row">
+
+    <div class="col-md-2 panel align-content-center">
+        <img src="public/img/Bunter.png" class="logo" alt="">
+        <h3 style="color: #f3ba2f;">BUNTER</h3>
+        <h6>By S3NT4X && Z3NIX3V</h6>
+        <h4 style="padding-top: 2rem">Status : <span class="status running">RUNNING!</span></h4>
+        <div class="clear" style="padding-top: 2rem"></div>
+        <a href="#" class="btn btn-change-status">Change Status</a>
+    </div>
+    <div class="col-md-10 signals">
+
+
+        <!--<div class="signal" id="CVCBTC">-->
+        <!--<div class="col-md-2 details float-left">-->
+        <!--<h6>CVCBTC</h6>-->
+        <!--<span>CHG : 3.00 %</span>-->
+        <!--<span>VOL : 3500 %</span>-->
+        <!--<span>TF : 1M</span>-->
+        <!--<span>PC : 0.0000758</span>-->
+        <!--<span>CC : 0.0000788</span>-->
+        <!--</div>-->
+        <!--<div class="col-md-2 order-book float-left">-->
+        <!--<ul>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+
+
+        <!--</ul>-->
+        <!--</div>-->
+        <!--<div class="col-md-2 trades float-left">-->
+        <!--<ul>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="buy"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+        <!--<li class="sell"><span class="price">0.000798</span><span class="vol">125888</span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</li>-->
+
+
+        <!--</ul>-->
+        <!--</div>-->
+        <!--<div class="col-md-6 chart float-left">-->
+
+
+        <!--<div id="chart-CVCBTC">-->
+
+
+        <!--</div>-->
+
+
+        <!--</div>-->
+        <!--<div class="clearfix"></div>-->
+        <!--</div>-->
+
+
+    </div>
+
+
+</div>
+
+
+<div class="login">
+
+    <img src="public/img/Bunter.png" class="dimmed" alt="">
+    <div class="login-box">
+        <header>BUNTER LOGIN</header>
+        <div class="form-group">
+            <input type="text" placeholder="Username" id="username">
+            <input type="password" placeholder="Password" id="password">
+            <a href="#" onclick="loginBox.grant($('#username').val(),$('#password').val())">Login</a>
+        </div>
+    </div>
+
+</div>
+
+<script src="public/js/jquery-3.3.1.min.js"></script>
+<script src="public/js/socket.io.js"></script>
+<script>
+    var helperSocket =
+            $(document).ready(function (e) {
+                helperSocket = io('http://{{svIP}}:{{socketPort}}');
+                var socket = io('http://api.smartsignal.co:3000');
+                socket.on('ticker', function (msg) {
+                    // console.log(msg);
+                });
+
+                helperSocket.on('aggTrades', function (msg) {
+                    signals.aggTrades.prepend(msg)
+                });
+                helperSocket.on('grant', function (msg) {
+                    if (msg == true) {
+                        loginBox.hide()
+                    }
+                    else {
+                        alert('login error!')
+                    }
+                });
+                helperSocket.on('depth', function (msg) {
+                    signals.depth.add(msg)
+                });
+
+                helperSocket.on('depthUpdate', function (msg) {
+                    signals.depth.update(msg)
+                });
+
+                socket.on('signal', function (msg) {
+                    signals.prepend(msg, true)
+                });
+
+                // loginBox.hide()
+            })
+    var loginBox = {
+        hide: function () {
+            $('.login').fadeOut(500);
+        }, grant: function (username, password) {
+            helperSocket.emit('grantAccess', {username: username, password: password})
+
+        }
+    }
+
+
+    var signals = {
+
+        prepend: function (data, chart) {
+            let symbol = data.symbol
+
+            var prev = $("#" + symbol).length
+            if (prev != 0) {
+
+                signals.update(data)
+                return false
+            }
+
+            helperSocket.emit('aggTrades', {symbol: data.symbol})
+
+            $('.signals').prepend('  <div class="signal " id="' + symbol + '">\n' +
+                    '            <div class="col-md-2 details float-left">\n' +
+                    '                <h6>' + symbol + '</h6>\n' +
+                    '                <span class="CNF" cnf="1">CNF: 1</span>\n' +
+                    '                <span class="PCH">PCH : ' + data.pch + ' %</span>\n' +
+                    '                <span class="VCH">VCH : ' + data.vch + ' %</span>\n' +
+                    '                <span class="TF">TF : ' + data.tf + '</span>\n' +
+                    '                <span class="PC">PC : ' + data.pc + '</span>\n' +
+                    '                <span class="CC">CC : ' + data.cc + '</span>\n' +
+                    '                <span class="PV">PV : ' + data.pv + '</span>\n' +
+                    '                <span class="CV">CV : ' + data.cv + '</span>\n' +
+                    '            </div>\n' +
+                    '            <div class="col-md-2 order-book float-left">\n' +
+                    '            <ul class="sells"></ul><ul class="buys"></ul></div>\n' +
+                    '            <div class="col-md-2 aggTrades float-left">\n' +
+                    '           <ul></ul> </div>\n' +
+                    '            <div class="col-md-6 chart float-left"><div id="chart-' + symbol + '"></div></div><div class="clearfix"></div>\n' +
+                    '        </div>\n')
+
+            if (chart == false)
+                return true
+            new TradingView.widget({
+                "container_id": 'chart-' + symbol,
+                "autosize": false,
+                "height": $("#" + symbol).innerHeight() + 10,
+                "width": '100%',
+                "interval": '1',
+                "timezone": "exchange",
+                "symbol": "BINANCE:" + symbol,
+                "theme": "Dark",
+                "style": "1",
+                "toolbar_bg": "#14181b",
+                "withdateranges": true,
+                "hide_side_toolbar": false,
+                "allow_symbol_change": false,
+                "save_image": false,
+                "hideideas": false,
+                "studies": [
+                    "BB@tv-basicstudies"
+                ],
+                overrides: {
+                    "paneProperties.background": "#222222",
+                    "paneProperties.vertGridProperties.color": "#454545",
+                    "paneProperties.horzGridProperties.color": "#454545",
+                    "symbolWatermarkProperties.transparency": 90,
+                    "scalesProperties.textColor": "#AAA"
+                },
+                "show_popup_button": true,
+                "popup_width": "1000",
+                "popup_height": "650"
+            });
+
+
+        },
+        update: function (data) {
+            $('#' + data.symbol + " .CNF").html('CNF : ' + (parseInt($('#' + data.symbol + " .CNF").attr('cnf')) + 1))
+            $('#' + data.symbol + " .CNF").attr('cnf', (parseInt($('#' + data.symbol + " .CNF").attr('cnf')) + 1))
+            $('#' + data.symbol + " .CC").html('CC : ' + data.cc + ' %')
+            $('#' + data.symbol + " .PCH").html('PCH : ' + data.pch + ' %')
+            $('#' + data.symbol + " .VCH").html('VCH : ' + data.vch + ' %')
+        },
+        blink: function (symbol, trend) {
+            if (trend == false)
+                $('#' + symbol).css('background', '#0F0')
+            else if (trend == true)
+                $('#' + symbol).css('background', '#F00')
+            else
+                $('#' + symbol).css('background', '#1f266e')
+
+            setTimeout(function () {
+                $('#' + symbol).css('background', '#131722')
+            }, 100)
+        },
+        aggTrades: {
+            prepend: function (data) {
+                var side
+                if (data.maker == true)
+                    side = 'sell'
+                else
+                    side = 'buy'
+
+                var LC = $('#' + data.symbol + ' .CC').html()
+                LC = LC.split(' ')
+                LC = parseFloat(LC[LC.length - 1])
+                $('#' + data.symbol + ' .CC').html('CC : ' + data.price)
+
+
+                var tmp = $('#' + data.symbol + ' .aggTrades ul li').length
+                if (tmp >= 10)
+                    $('#' + data.symbol + ' .aggTrades ul li').last().remove()
+
+                $('#' + data.symbol + ' .aggTrades ul').prepend('<li class="' + side + '"><span class="price">' + data.price + '</span><span class="vol">' + data.quantity + '</span>\n' +
+                        '        <div class="clearfix"></div>\n' +
+                        '        </li>')
+
+                if (parseFloat(data.price) > LC)
+                    signals.blink(data.symbol, false)
+                else if (parseFloat(data.price) < LC) {
+                    signals.blink(data.symbol, true)
+                } else {
+                    signals.blink(data.symbol, 'norm')
+                }
+
+
+            }
+
+        },
+        depth: {
+            add: function (data) {
+
+
+                for (var i = data.asks.length - 1; i > 0; i--) {
+
+                    $('#' + data.symbol + ' .order-book .sells').append(' <li data-price="' + data.asks[i][0] + '" class="sell"><span class="price">' + data.asks[i][0] + '</span><span class="vol">' + parseFloat(data.asks[i][1]).toFixed(4) + '</span>\n' +
+                            '        <div class="clearfix"></div>\n' +
+                            '        </li>')
+                }
+
+                for (var i = 0; i < data.bids.length; i++) {
+
+                    $('#' + data.symbol + ' .order-book .buys').append(' <li data-price="' + data.bids[i][0] + '" class="buy"><span class="price">' + data.bids[i][0] + '</span><span class="vol">' + parseFloat(data.bids[i][1]).toFixed(4) + '</span>\n' +
+                            '        <div class="clearfix"></div>\n' +
+                            '        </li>')
+                }
+
+
+            },
+            update: function (data) {
+                for (var i = 0; i < data.bidDepthDelta.length; i++) {
+
+                    if (parseFloat(data.bidDepthDelta[i].quantity) == 0) {
+                        $('#' + data.symbol + ' [data-price="' + data.bidDepthDelta[i].price + '"]').remove()
+                        continue
+                    }
+
+                    if ($('#' + data.symbol + ' [data-price="' + data.bidDepthDelta[i].price + '"]').length == 0) {
+
+
+                        $('#' + data.symbol + ' .order-book .buys').append(' <li data-price="' + data.bidDepthDelta[i].price + '" class="buy"><span class="price">' + data.bidDepthDelta[i].price + '</span><span class="vol">' + parseFloat(data.bidDepthDelta[i].quantity).toFixed(4) + '</span>\n' +
+                                '        <div class="clearfix"></div>\n' +
+                                '        </li>')
+                    } else {
+                        $('#' + data.symbol + ' .order-book .buys [data-price="' + data.bidDepthDelta[i].price + '"]').data('price', data.bidDepthDelta[i].price)
+                        $('#' + data.symbol + ' .order-book .buys [data-price="' + data.bidDepthDelta[i].price + '"] .price').html(data.bidDepthDelta[i].price)
+                        $('#' + data.symbol + ' .order-book .buys [data-price="' + data.bidDepthDelta[i].price + '"] .vol').html(data.bidDepthDelta[i].quantity)
+                    }
+                }
+
+
+                for (var i = 0; i < data.askDepthDelta.length; i++) {
+                    if (parseFloat(data.askDepthDelta[i].quantity) == 0) {
+                        $('#' + data.symbol + ' [data-price="' + data.askDepthDelta[i].price + '"]').remove()
+                        continue
+                    }
+                    if ($('#' + data.symbol + ' [data-price="' + data.askDepthDelta[i].price + '"]').length == 0) {
+
+
+                        $('#' + data.symbol + ' .order-book .sells').prepend(' <li data-price="' + data.askDepthDelta[i].price + '" class="sell"><span class="price">' + data.askDepthDelta[i].price + '</span><span class="vol">' + parseFloat(data.askDepthDelta[i].quantity).toFixed(4) + '</span>\n' +
+                                '        <div class="clearfix"></div>\n' +
+                                '        </li>')
+                    } else {
+                        $('#' + data.symbol + ' .order-book .sells [data-price="' + data.askDepthDelta[i].price + '"]').data('price', data.askDepthDelta[i].price)
+                        $('#' + data.symbol + ' .order-book .sells [data-price="' + data.askDepthDelta[i].price + '"] .price').html(data.askDepthDelta[i].price)
+                        $('#' + data.symbol + ' .order-book .sells [data-price="' + data.askDepthDelta[i].price + '"] .vol').html(data.askDepthDelta[i].quantity)
+                    }
+
+                }
+
+
+                signals.depth.sort(data)
+            },
+            sort(data) {
+                $('#' + data.symbol + ' .order-book .buys li').sort(sort_li) // sort elements
+                        .appendTo('#' + data.symbol + ' .order-book .buys'); // append again to the list
+                function sort_li(a, b) {
+                    return ($(b).data('price')) > ($(a).data('price')) ? 1 : -1;
+                }
+
+
+                $('#' + data.symbol + ' .order-book .sells li').sort(sort_li2) // sort elements
+                        .appendTo('#' + data.symbol + ' .order-book .sells'); // append again to the list
+                function sort_li2(a, b) {
+                    return ($(b).data('price')) > ($(a).data('price')) ? 1 : -1;
+                }
+
+            }
+
+        }
+
+    }
+
+
+</script>
+</body>
+</html>
+

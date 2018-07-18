@@ -1,0 +1,9 @@
+{
+  "username": "bunter",
+  "password": "bunter",
+  "svIP":"Your server IP address",
+  "socketPort":778,
+  "apiKey":"Your api key here",
+  "secretKey":"Your secret key here",
+  "port":777
+}

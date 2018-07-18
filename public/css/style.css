@@ -1,0 +1,214 @@
+.row {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html, body {
+    background: #0b0b0b;
+    font-family: 'Consolas';
+    height: 100%;
+
+    color: #f7ffec;
+}
+
+.base {
+    border-radius: 7px;
+    margin-left: 0.5%;
+    margin-right: 2%;
+    margin-top: 2% !important;
+    margin-bottom: 0 !important;
+    box-sizing: border-box;
+    height: 95%;
+
+}
+
+.panel {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.logo {
+    width: 50%;
+}
+
+.status.running {
+    color: #0F0;
+}
+
+.status.OFF {
+    color: #F00;
+}
+
+.btn-change-status {
+    background: #323232;
+    border-radius: 7px;
+    color: #F00;
+}
+
+.base {
+    padding: 1rem;
+}
+
+.live-table {
+    width: 100%;
+
+}
+
+.live-table thead {
+    margin-bottom: 1rem !important;
+    border-bottom: 1px solid #fff3cd;
+}
+
+.login {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #0b0b0b;
+    z-index: 111111111111;
+
+}
+
+.dimmed {
+    height: 100%;
+
+    opacity: 0.2;
+    animation: fade 3000ms infinite;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 0.2;
+    }
+}
+
+.login-box {
+    background: #323232;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    min-width: 20%;
+    left: 2%;
+    bottom: 20%;
+    border-radius: 7px;
+
+}
+
+.login-box input {
+    background: none;
+    border: 1px solid #fff3cd;
+    color: #0F0;
+    padding: 5px;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.login-box header {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #fff3cd;
+
+}
+
+.login-box a {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #fff3cd;
+    padding: 0.5rem;
+    background: #fff3cd;
+    border-radius: 7px;
+
+}
+
+.signal {
+    background: #131722;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    transition:all ease-in-out 0.2s;
+}
+
+.signal span, h6 {
+    display: block;
+    font-family: 'Consolas' !important;
+    text-transform: uppercase;
+}
+
+.order-book .vol {
+    float: right;
+}
+.order-book .price{
+    float: left;
+}
+.order-book .sell{
+    background: #9a2323  !important;
+}
+.order-book .buy{
+    background: #2a7d2a !important
+}
+.order-book li{
+    display: block;
+    padding: 0.1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #000;
+}
+.order-book span {
+    display: block;
+}
+
+.order-book ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.order-book ul li{
+    display: none;
+}
+
+
+.aggTrades ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.aggTrades .vol {
+    float: right;
+}
+.aggTrades .price{
+    float: left;
+}
+.aggTrades .sell{
+    background: #9a2323  !important;
+}
+.aggTrades .buy{
+    background: #2a7d2a !important
+}
+.aggTrades li{
+    display: block;
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #000;
+}
+
+.order-book .buys li:nth-child(-n+5) {
+    display:block !important;
+}
+
+.order-book .sells li:nth-last-child(-n+5) {
+    display:block !important;
+}
