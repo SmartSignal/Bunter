@@ -1,6 +1,5 @@
 # Bunter
 
-project is on beta testing!
-feel you can help us?
+This project is currently in beta fase. Feel free to test and/or help us to improve this project.
 
-bunter.smartsignal.co
+https://bunter.smartsignal.co
